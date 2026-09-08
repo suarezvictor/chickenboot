@@ -1,6 +1,6 @@
 # ChickenBoot
 
-The unbrickable and versatile embeedable boot loader  
+The unbrickable and versatile embeddable boot loader  
 
 <img src="doc/chickenboot-logo-full.png" height="480">  
 
@@ -15,19 +15,17 @@ cmake -S . -B build -DPICO_BOARD=pico
 make -C build -j
 ```
 
-Then copy the build/main.uf2 file to the virtual drive (created by holding the BOOT button, usual label for the drive is RPI-RP2)
-
-
+Then copy the build/main.uf2 file to the virtual drive (created by holding the BOOT button, the usual label for the drive is RPI-RP2)
 # PCB design files
 
-There are two board designs: one based in a MCU from WCH, the other based in a Raspberry Pi Pico.  
+There are two board designs: one based on a MCU from WCH, the other based on a Raspberry Pi Pico.  
 
 
 for details, read [Design document](DESIGN.md)
 
 
 ## View the boards online:  
-The inteactive viewer allows to explore the design in full without need of installing any tools  
+The interactive viewer allows to explore the design in full without the need of installing any tools
 
 - [RPI based design](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsuarezvictor%2Fchickenboot%2Ftree%2Fmain%2Fhardware%2Fchickenboot-rpi)
 
