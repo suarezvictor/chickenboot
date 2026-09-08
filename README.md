@@ -1,14 +1,21 @@
-# RP2350 Minimal KiCad Design Examples
+# ChickenBoot
 
-These are designs taken directly from Raspberry Pi's archive here: https://datasheets.raspberrypi.com/rp2350/Minimal-KiCAD.zip
 
-Unpacked so they can be viewed with [KiCanvas](https://github.com/theacodes/kicanvas).
+## PCB design files
 
-You can read more about Hardware Design with the RP2350 here: https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf
+There are two board designs: one based in a MCU from WCH, the other based in a Raspberry Pi Pico.  
 
-Convenient KiCanvas links:
 
-- [RP2350A](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Farturo182%2Frp2350_minimal_kicad%2Ftree%2Fmain%2FRP-006440-DD-2-RP2350A%2520Minimal%2520Board%2520Kicad%2520archive)
-- [RP2350B](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Farturo182%2Frp2350_minimal_kicad%2Ftree%2Fmain%2FRP-006442-DD-2-RP2350B%2520Minimal%2520Board%2520Kicad%2520archive)
+for details, read [Design document](DESIGN.md)
 
-All rights to these designs belong to Raspberry Pi, I just unpacked them and put them on GitHub.
+
+## View the boards online:  
+The inteactive viewer allows to explore the design in full without need of installing any tools  
+
+- [RPI based design](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsuarezvictor%2Fchickenboot%2Ftree%2Fmain%2Fhardware%2Fchickenboot-rpi)
+
+- [WCH based design](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsuarezvictor%2Fchickenboot%2Ftree%2Fmain%2Fhardware%2Fchickenboot-jtag-wch)
+
+<img src="doc/chickenboot-rpi.png" width="640">  
+<img src="doc/chickenboot-wch.png" width="640">  
+
