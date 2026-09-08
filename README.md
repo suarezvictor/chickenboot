@@ -4,8 +4,21 @@ The unbrickable and versatile embeedable boot loader
 
 <img src="doc/chickenboot-logo-full.png" height="480">  
 
+# Building
 
-## PCB design files
+To build the firmware:  
+```
+export PICO_SDK_PATH=$HOME/pico/pico-sdk
+
+cd firmware
+cmake -S . -B build -DPICO_BOARD=pico
+make -C build -j
+```
+
+Then copy the build/main.uf2 file to the virtual drive (created by holding the BOOT button, usual label for the drive is RPI-RP2)
+
+
+# PCB design files
 
 There are two board designs: one based in a MCU from WCH, the other based in a Raspberry Pi Pico.  
 
