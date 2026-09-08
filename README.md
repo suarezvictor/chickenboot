@@ -1,5 +1,9 @@
 # ChickenBoot
 
+The unbrickable and versatile embeedable boot loader  
+
+<img src="doc/chickenboot-logo-full.png" height="480">  
+
 
 ## PCB design files
 
@@ -19,3 +23,5 @@ The inteactive viewer allows to explore the design in full without need of insta
 <img src="doc/chickenboot-rpi.png" width="640">  
 <img src="doc/chickenboot-wch.png" width="640">  
 
+# Funding
+This project is supported by [The Open Source Firmware Foundation](https://www.osfw.foundation/)  
