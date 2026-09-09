@@ -34,5 +34,9 @@ The interactive viewer allows to explore the design in full without the need of 
 <img src="doc/chickenboot-rpi.png" width="640">  
 <img src="doc/chickenboot-wch.png" width="640">  
 
+# Licensing
+Hardware design files are licensed under the [CERN-OHL-S-2.0](https://opensource.org/license/CERN-OHL-S-2.0) unless otherwise stated.  
+Source code is licensed under the [AGPL-3.0](https://opensource.org/license/agpl-3-0) unless otherwise stated.  
+  
 # Funding
 This project is supported by [The Open Source Firmware Foundation](https://www.osfw.foundation/)  
