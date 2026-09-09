@@ -9461,7 +9461,7 @@
 			)
 		)
 		(property "Value" "12MHz"
-			(at 0 4.55 360)
+			(at 0 4.55 0)
 			(layer "F.Fab")
 			(uuid "e36a1ba0-4534-4114-af52-dbafbf91c8e9")
 			(effects
@@ -9508,7 +9508,7 @@
 			)
 		)
 		(property "LCSC Part" "C5830660"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bec896b-2276-49b6-9c36-6c73549f899b")
@@ -9651,7 +9651,7 @@
 			(uuid "3b3e5465-0434-426b-b008-f2d1a9394c82")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e5b03e13-a119-4777-ada2-252ebbe864a8")
 			(effects
@@ -10673,7 +10673,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "JTAG v0.09"
+	(gr_text "JTAG v0.1"
 		(at 130.4 117.48 0)
 		(layer "B.Mask")
 		(uuid "ca97bc88-6bf8-4e09-94aa-2c080a177a37")
