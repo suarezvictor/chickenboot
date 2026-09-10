@@ -10392,6 +10392,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 337.82 102.235 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10399,7 +10400,7 @@
 		(dnp yes)
 		(uuid "526c23f0-6ce1-4881-abc3-9f9864b4a922")
 		(property "Reference" "J3"
-			(at 337.82 95.758 0)
+			(at 337.82 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10407,7 +10408,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 337.82 108.585 0)
+			(at 337.82 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,7 +12679,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5410110"
+		(property "LCSC Part Number" "C5410110"
 			(at 342.9 100.33 0)
 			(effects
 				(font
